@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fascinate+Inline&family=Jacquarda+Bastarda+9&family=Jacques+Francois+Shadow&family=Protest+Guerrilla&family=Sofadi+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <div id="game-container">
+    <div>
+      <img style="border-radius: 10px;" width="320px" src="https://miro.medium.com/max/1400/1*QDJNhiY4HWliwDYOPqQ6qg.png" alt="">
+    </div>
+    <div>
+      <p style="font-size: 18px; margin-top: 10px; font-weight: 700; font-family: Sofadi One, system-ui;">I'm thinking of a number between 1 and 100.</p>
+      <input type="number" id="userInput" placeholder="Enter your guess" />
+      <button id="submit-guess">Guess</button>
+      <button onclick="location.reload()" id="reset">Reset</button>
+      <div id="output"></div>
+      <div id="remainingGuess">Remaining Guess: 10</div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
